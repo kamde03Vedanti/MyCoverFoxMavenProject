@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="CoverFox_Testclass.CF_TC04_Validate_search_results_for_healthcare_policies">
+        <methods>
+          <include name="enterMemeberDetails"/>
+          <include name="launchingBrowser"/>
+          <include name="closingBrowser"/>
+          <include name="validateTestPlansFromTextandBanner"/>
+        </methods>
+      </class> <!-- CoverFox_Testclass.CF_TC04_Validate_search_results_for_healthcare_policies -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
