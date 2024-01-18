@@ -83,6 +83,7 @@ public class CF_TC05_Validate_errormessage extends BaseClass
   public void validate_PincodeErrorMessage() throws InterruptedException
   {
 	  
+	  Reporter.log("Skipping pincode", true);
 	  Thread.sleep(2000);
 	  Reporter.log("Verify Pincode ERROR Message", true);
 	  boolean result = addresspage.PincodeErrorMessage();
